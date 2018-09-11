@@ -38,7 +38,7 @@
     },
     "Admin Username": {
       "type": "string",
-      "defaultValue": "BPVMADMIN",
+      "defaultValue": "",
       "allowedValues": [
         "BPVMADMIN"
 
@@ -49,9 +49,9 @@
     },
     "Existing Virtual NetworkName": {
       "type": "string",
-      "defaultValue": "BPENPGDMPVNAMSTST",
+      "defaultValue": "",
       "allowedValues": [
-        "BPENPGDMPVNAMSTST"
+        ""
 
       ],
       "metadata": {
@@ -60,9 +60,9 @@
     },
     "Existing Virtual NetworkName ResourceGroup Name": {
       "type": "string",
-      "defaultValue": "bpenpgdmpvnamstst-Migrated",
+      "defaultValue": "",
       "allowedValues": [
-        "bpenpgdmpvnamstst-Migrated"
+        ""
 
       ],
       "metadata": {
@@ -74,13 +74,7 @@
       "type": "string",
       "defaultValue": "DevSPSubnet2",
       "allowedValues": [
-        "DevSPSubnet2",
-        "TEST-SP-WFE",
-        "TEST-SP-APP",
-        "TEST-SP-DB",
-        "Dev-SP-Servers",
-        "Dev-DB-Servers",
-        "Test-SP-Servers"
+        "
 
 
       ],
@@ -92,13 +86,7 @@
       "type": "string",
       "defaultValue": "DevSPSubnet2",
       "allowedValues": [
-        "DevSPSubnet2",
-        "TEST-SP-WFE",
-        "TEST-SP-APP",
-        "TEST-SP-DB",
-        "Dev-SP-Servers",
-        "Dev-DB-Servers",
-        "Test-SP-Servers"
+        
 
 
       ],
@@ -111,15 +99,7 @@
       "type": "string",
       "defaultValue": "DevSPSubnet2",
       "allowedValues": [
-        "DevSPSubnet2",
-        "TEST-SP-WFE",
-        "TEST-SP-APP",
-        "TEST-SP-DB",
-        "Dev-SP-Servers",
-        "Dev-DB-Servers",
-        "Test-SP-Servers"
-
-
+        
       ],
       "metadata": {
         "description": "The name of subnet in network to deploy database vms"
